@@ -58,7 +58,7 @@ const App = () => {
     <div className='App'>
       <Navbar search={search} setSearch={setSearch} />
       <Routes>
-        <Route path='/home' element={<Home posts={searchResults} setPosts={setPosts}  />} />
+        <Route path='/' element={<Home posts={searchResults} setPosts={setPosts}  />} />
         <Route path='/post' element={<Post posts={posts} setPosts={setPosts}/>} />
         <Route path='/about' element={<About />} />
         <Route path='/profile' element={<Profile />} />
