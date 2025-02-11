@@ -18,7 +18,7 @@ const Post = ({posts, setPosts}) => {
     const allPost = [...posts, newPost]
     setPosts(allPost)
     
-  navigate('/')
+  navigate('/home')
   }
 
   return (

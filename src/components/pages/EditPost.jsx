@@ -19,7 +19,7 @@ const EditPost = ({posts, setPosts}) => {
   const handleEditSubmit = async (id) =>{      
       const datetime = format(new Date(), 'MMMM dd')
         setPosts(posts.map((post)=> post.id === id ? {...post, title:edittitle,body:editContent, date:datetime} : post))
-        navigate('/')       
+        navigate('/home')       
   }
 
 

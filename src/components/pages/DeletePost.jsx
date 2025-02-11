@@ -14,7 +14,7 @@ const DeletePost = ({ posts, setPosts }) => {
 
   const handleDelete = () => {
     setPosts(posts.filter((post) => (post.id).toString() !== id));
-    navigate('/');
+    navigate('/home');
   };
 
   return (

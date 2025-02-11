@@ -26,7 +26,7 @@ const Navbar = ({search, setSearch}) => {
             <IoMenu />
         </div>
         <ul className={`Navbar-ul ${menu ? 'open':''}`}>
-            <li><NavLink to='/'>Home</NavLink></li>
+            <li><NavLink to='/home'>Home</NavLink></li>
             <li><NavLink to='/post'>Post</NavLink></li>
             <li><NavLink to='/about'>About</NavLink></li>
         </ul>
